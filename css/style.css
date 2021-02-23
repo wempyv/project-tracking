@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+    color: hsl(231, 7%, 65%) !important;
+    font-size: 12px;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.jumbotron {
+    background: none;
+}
+
+.badge-caption {
+    margin-left: 1em;
+    letter-spacing: 5px;
+}
+
+.header-hero {
+    font-weight: 700;
+    font-size: 4rem;
+}
+.btn-light{
+    letter-spacing: 3px;
+}
+
+@media(max-width:500px) {
+    .side-crop {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .side-crop img {
+        max-width: initial;
+    }
+    .header-hero {
+        font-size: 35px;
+    }
+    .reverse {
+        flex-direction: column-reverse;
+    }
+}
