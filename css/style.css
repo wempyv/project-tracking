@@ -5,7 +5,6 @@
     padding: 0;
 }
 
-
 body {
     font-size: 18px;
     font-family: 'Barlow Condensed', sans-serif;
@@ -33,17 +32,19 @@ body {
     font-weight: 700;
     font-size: 4rem;
 }
-.btn-light{
+
+.btn-light {
     letter-spacing: 3px;
 }
 
-@media(max-width:500px) {
+@media(max-width:760px) {
     .side-crop {
-        max-width: 100%;
+        max-width: 20em;
         overflow: hidden;
     }
     .side-crop img {
-        max-width: initial;
+        max-width: 30em;
+        margin: 0 auto;
     }
     .header-hero {
         font-size: 35px;
